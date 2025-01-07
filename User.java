@@ -30,9 +30,10 @@
     public String getName() {
         return name;
     }
+    
 
     /** Returns the follows array. */
-    public String[] getfFollows() {
+    public String[] getFollows() {
         return follows;
     }
 
