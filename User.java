@@ -33,7 +33,7 @@
     
 
     /** Returns the follows array. */
-    public String[] getFollows() {
+    public String[] getfFollows() {
         return follows;
     }
 
@@ -46,8 +46,8 @@
     public boolean follows(String name) {
         
         for (int i = 0; i < fCount; i++) { 
-            if (follows[i].equals(name)) { 
-                return true; 
+            if (follows[i].equals(name)) {
+                return true;
             }
         }
 
